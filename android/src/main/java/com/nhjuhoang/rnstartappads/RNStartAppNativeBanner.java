@@ -73,7 +73,7 @@ public class RNStartAppNativeBanner extends ReactViewGroup implements AdEventLis
         params.putString("SecondaryImageUrl", nativeAdDetails.getSecondaryImageUrl());
         params.putString("Installs", nativeAdDetails.getInstalls());
         params.putString("Category", nativeAdDetails.getCategory());
-        params.putString("PackacgeName", nativeAdDetails.getPackacgeName());
+        params.putString("PackageName", nativeAdDetails.getPackageName());
         params.putString("CampaignAction", nativeAdDetails.getCampaignAction().toString());
         params.putString("ImageBitmap", BitMapToString(nativeAdDetails.getImageBitmap()));
         params.putString("SecondaryImageBitmap", BitMapToString(nativeAdDetails.getSecondaryImageBitmap()));
